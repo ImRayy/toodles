@@ -1,0 +1,4 @@
+{
+  "formatting.gofumpt": true,
+  "formatting.lineWidth": 80
+}
