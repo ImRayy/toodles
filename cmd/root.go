@@ -36,7 +36,6 @@ var rootCmd = &cobra.Command{
 			priority = append(priority, string(task.Priority))
 		}
 
-		fmt.Println(priority)
 		headers := []string{"", "Tasks", "Created At"}
 		tasks.RenderTable(rows, headers, priority)
 	},

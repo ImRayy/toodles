@@ -19,7 +19,7 @@ var Create = &cobra.Command{
 	Use:   "add",
 	Short: "Add new task",
 	Long:  createLong,
-	Args:  cobra.MinimumNArgs(2),
+	Args:  cobra.MinimumNArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 		var err error
 		var stmt string
